@@ -43,6 +43,16 @@ This folder contains the multi-class classification model based on DenseNet201.
   1. Ensure the image paths are correctly set in the `DENSENET.py` file before training the model.
   2. In the same folder, you will find a `.keras` file with the pre-trained model. To run tests with this model, simply execute the `DENSENET-TEST.py` script.
   3. Make sure to adjust the image paths in the `DENSENET-TEST.py` file before running it.
+### 4. DATASET
+#### Data for Training and Testing SVM and InceptionV3
+This dataset was used for training and testing the SVM and InceptionV3 models. It contains pre-processed and labeled images to evaluate the performance of these models.
+
+- [Download Data (SVM and InceptionV3)](https://shorturl.at/zKdNS)
+
+#### Data for Training and Testing DenseNet201
+This dataset is used for training and testing the DenseNet201 model. It consists of three categories of images for classification, allowing the model to differentiate between these classes.
+
+- [Download Data (DenseNet201)](https://shorturl.at/WewfD)
 
 ## Requirements
 
